@@ -1,0 +1,38 @@
+/* Fondo de página gris claro y eliminación de márgenes */
+body {
+  background-color: #d3d3d3; /* Gris claro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Contenedor centrado al 70% con borde de 2px */
+.container {
+  width: 70%;
+  border: 2px solid #000;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Estilos para cada sección */
+header, section, article, footer {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+header {
+  background-color: #f5f5f5;
+}
+
+footer {
+  background-color: #f5f5f5;
+  border-bottom: none;
+}
+
+/* Opcional: eliminar el borde inferior en el último elemento si se desea */
+article {
+  border-bottom: none;
+}
